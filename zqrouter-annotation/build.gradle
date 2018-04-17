@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+
+ext {
+    bintrayName = 'zqrouter-annotation'
+    artifact = bintrayName
+    libraryName = 'ZqRouter annotation'
+    libraryDescription = 'ZqRouter annotation'
+    libraryVersion = ZQROUTER_ANNOTATION_VERSION
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

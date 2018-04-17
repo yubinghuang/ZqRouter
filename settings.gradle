@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':zqrouter-compiler', ':zqrouter-annotation', ':zqrouter-api'
